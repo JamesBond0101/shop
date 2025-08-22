@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
             'USER': 'shop',
             'PASSWORD': '1234',
             'HOST': 'localhost',  # Или IP-адрес вашего сервера PostgreSQL
-            'PORT': 5324,           # Если порт не стандартный (5432), укажите его
+            'PORT': 5432,           # Если порт не стандартный (5432), укажите его
         }
 }
 
